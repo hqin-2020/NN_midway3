@@ -31,7 +31,6 @@ NUMPY_MODE = False
 
 __all__ = [
     'bracket_root',
-    'secant_root',
     'find_root_chandrupatla',
     'find_root_secant',
 ]
