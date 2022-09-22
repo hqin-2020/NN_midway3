@@ -139,7 +139,7 @@ load_list = ['W_NN','Z_NN','V_NN','Vtilde_NN','logXiE_NN','logXiH_NN','XiE_NN','
              'muW_NN', 'muQ_NN','r_NN','dent_NN',\
              'Fe_NN', 'firstCoefsE_NN', 'secondCoefsE_NN', 'HJB_E_NN','Fh_NN', 'firstCoefsH_NN', 'secondCoefsH_NN', 'HJB_H_NN','kappa_min_NN']
 
-moment_list = ['W','Z','V','Vtilde','logXiE','logXiH','XiE_NN','XiH_NN','kappa','q', 'chi','sigmaR_first_shock','sigmaR_second_shock','sigmaR_third_shock','PiH_first_shock','PiH_second_shock','PiH_third_shock','PiE_first_shock','PiE_second_shock','PiE_third_shock','r','dent']
+moment_list = ['W','Z','V','Vtilde','logXiE','logXiH','XiE','XiH','kappa','q', 'chi','sigmaR_first_shock','sigmaR_second_shock','sigmaR_third_shock','PiH_first_shock','PiH_second_shock','PiH_third_shock','PiE_first_shock','PiE_second_shock','PiE_third_shock','r','dent']
 
 W_NN, Z_NN, V_NN, Vtilde_NN, logXiE_NN, logXiH_NN, XiE_NN, XiH_NN, kappa_NN, q_NN,\
 sigmaK_NN, sigmaZ_NN, sigmaV_NN, sigmaVtilde_NN, muK_NN, muZ_NN, muV_NN, muVtilde_NN, chi_NN,\
@@ -291,7 +291,7 @@ if status != '3':
         secondCoefsE_MFR            = np.genfromtxt(mfrSuite_resdir + '/secondCoefsE_final.dat').reshape(3,-1).transpose()
         secondCoefsH_MFR            = np.genfromtxt(mfrSuite_resdir + '/secondCoefsH_final.dat').reshape(3,-1).transpose()
 
-        MFR_variables = pd.DataFrame([W_MFR,Z_MFR,V_MFR,Vtilde_MFR,logXiE_MFR,logXiH_MFR,XiE_MFR, XiH_MFR, kappa_MFR,q_MFR[:,0],chi_MFR[:,0],sigmaR_MFR[:,0],sigmaR_MFR[:,1],sigmaR_MFR[:,2],PiH_MFR[:,0],PiH_MFR[:,1],PiH_MFR[:,2],PiE_MFR[:,0],PiE_MFR[:,1],PiE_MFR[:,2],r_MFR[:,0],dent_MFR],\
+        MFR_variables = pd.DataFrame([W_MFR,Z_MFR,V_MFR,Vtilde_MFR,logXiE_MFR,logXiH_MFR, XiE_MFR, XiH_MFR, kappa_MFR,q_MFR[:,0],chi_MFR[:,0],sigmaR_MFR[:,0],sigmaR_MFR[:,1],sigmaR_MFR[:,2],PiH_MFR[:,0],PiH_MFR[:,1],PiH_MFR[:,2],PiE_MFR[:,0],PiE_MFR[:,1],PiE_MFR[:,2],r_MFR[:,0],dent_MFR],\
                             index = moment_list).T
         MFR_variables = MFR_variables.astype(np.float64)
         
