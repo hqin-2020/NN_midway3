@@ -32,7 +32,6 @@ NUMPY_MODE = False
 __all__ = [
     'bracket_root',
     'find_root_chandrupatla',
-    'find_root_secant',
 ]
 
 RootSearchResults = collections.namedtuple(
