@@ -1,0 +1,7 @@
+2022-09-22 15:34:11.302278: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-09-22 15:34:11.307662: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cudnn-8.3.1-el8-x86_64/lib64
+2022-09-22 15:34:11.307697: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Traceback (most recent call last):
+  File "standard_moments.py", line 132, in <module>
+    with open(datadir + 'parameters_NN.json') as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lhansen/NN_midway3/data/WZVtilde_sigma_K_0040_sigma_Z_0014_sigma_V_0000_sigma_Vtilde_0100/chiUnderline_0500_a_e_0150_a_h_0050_gamma_e_1000_gamma_h_3000_psi_e_1500_psi_h_1500/parameters_NN.json'
