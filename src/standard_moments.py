@@ -292,6 +292,8 @@ if status != '3':
     if status == '0':
         logXiE_MFR                  = np.genfromtxt(mfrSuite_resdir + '/xi_e_final.dat').reshape(-1,1)
         logXiH_MFR                  = np.genfromtxt(mfrSuite_resdir + '/xi_h_final.dat').reshape(-1,1)
+        XiE_MFR                     = np.exp(logXiE_MFR)
+        XiH_MFR                     = np.exp(logXiH_MFR)
         kappa_MFR                   = np.genfromtxt(mfrSuite_resdir + '/kappa_final.dat').reshape(-1,1)
         q_MFR                       = np.genfromtxt(mfrSuite_resdir + '/q_final.dat').reshape(-1,1)
 
@@ -304,11 +306,9 @@ if status != '3':
         if sigma_Vtilde_norm == 0:
           muV_MFR                     = np.genfromtxt(mfrSuite_resdir + '/muV_final.dat').reshape(-1,1)
           sigmaV_MFR                  = np.genfromtxt(mfrSuite_resdir + '/sigmaV_final.dat').reshape(3,-1).T
-          dV_logQ_MFR                 = np.genfromtxt(mfrSuite_resdir + '/dlogQ_dV_final.dat').reshape(-1,1)
         elif sigma_V_norm == 0:
           muVtilde_MFR                = np.genfromtxt(mfrSuite_resdir + '/muH_final.dat').reshape(-1,1)
           sigmaVtilde_MFR             = np.genfromtxt(mfrSuite_resdir + '/sigmaH_final.dat').reshape(3,-1).T
-          dVtilde_logQ_MFR            = np.genfromtxt(mfrSuite_resdir + '/dlogQ_dH_final.dat').reshape(-1,1)
 
         sigmaQ_MFR                  = np.genfromtxt(mfrSuite_resdir + '/sigmaQ_final.dat').reshape(3,-1).T
         sigmaW_MFR                  = np.genfromtxt(mfrSuite_resdir + '/sigmaw_final.dat').reshape(3,-1).T
@@ -323,9 +323,6 @@ if status != '3':
         muQ_MFR                     = np.genfromtxt(mfrSuite_resdir + '/muQ_final.dat').reshape(-1,1)
         r_MFR                       = np.genfromtxt(mfrSuite_resdir + '/r_final.dat').reshape(-1,1)        
         dent_MFR                    = np.genfromtxt(mfrSuite_resdir + '/dent.txt').reshape(-1,1)
-        
-        dW_logQ_MFR                 = np.genfromtxt(mfrSuite_resdir + '/dlogQ_dw_final.dat').reshape(-1,1)
-        dZ_logQ_MFR                 = np.genfromtxt(mfrSuite_resdir + '/dlogQ_dZ_final.dat').reshape(-1,1)
         
         Fe_MFR                      = np.genfromtxt(mfrSuite_resdir + '/Fe_final.dat').reshape(-1,1)
         Fh_MFR                      = np.genfromtxt(mfrSuite_resdir + '/Fh_final.dat').reshape(-1,1)
