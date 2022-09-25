@@ -395,9 +395,9 @@ if status != '3':
             MFR_marginal_density_2d = [MFR_variables.groupby(['W']).sum().reset_index(drop=False), MFR_variables.groupby(['Z']).sum().reset_index(drop=False),MFR_variables.groupby(['Vtilde']).sum().reset_index(drop=False)]
 
     else:
-        MFR_slice = []; MFR_first_moments = []; MFR_second_moments = []; MFR_slice_2d = []; MFR_first_moments_2d = []; MFR_second_moments_2d = []; MFR_marginal_density = []; MFR_marginal_density_2d = []
+        MFR_slice = []; MFR_slice_inner = []; MFR_first_moments = []; MFR_second_moments = []; MFR_slice_2d = []; MFR_first_moments_2d = []; MFR_second_moments_2d = []; MFR_marginal_density = []; MFR_marginal_density_2d = []
 else:
-    MFR_slice = []; MFR_first_moments = []; MFR_second_moments = []; MFR_slice_2d = []; MFR_first_moments_2d = []; MFR_second_moments_2d = []; MFR_marginal_density = []; MFR_marginal_density_2d = []
+    MFR_slice = []; MFR_slice_inner = []; MFR_first_moments = []; MFR_second_moments = []; MFR_slice_2d = []; MFR_first_moments_2d = []; MFR_second_moments_2d = []; MFR_marginal_density = []; MFR_marginal_density_2d = []
 
 plot_results_slice = [MFR_slice, NN_slice]
 plot_results_slice_inner = [MFR_slice_inner, NN_slice_inner]
