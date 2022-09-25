@@ -1,12 +1,8 @@
-2022-09-25 17:50:27.356222: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2022-09-25 17:50:27.361627: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cudnn-8.3.1-el8-x86_64/lib64
-2022-09-25 17:50:27.361652: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-2022-09-25 17:50:32.224523: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cudnn-8.3.1-el8-x86_64/lib64
-2022-09-25 17:50:32.224571: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
-2022-09-25 17:50:32.224592: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (midway3-0027.rcc.local): /proc/driver/nvidia/version does not exist
-2022-09-25 17:50:32.224990: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+2022-09-25 18:38:48.568657: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-09-25 18:38:48.573419: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cudnn-8.3.1-el8-x86_64/lib64
+2022-09-25 18:38:48.573444: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-09-25 18:38:53.084387: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cudnn-8.3.1-el8-x86_64/lib64
+2022-09-25 18:38:53.084428: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-09-25 18:38:53.084450: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (midway3-0206.rcc.local): /proc/driver/nvidia/version does not exist
+2022-09-25 18:38:53.084850: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-Traceback (most recent call last):
-  File "standard_moments.py", line 334, in <module>
-    MFR_variables = pd.DataFrame([W_MFR,Z_MFR,V_MFR,Vtilde_MFR,logXiE_MFR,logXiH_MFR,kappa_MFR,q_MFR[:,0],dW_logQ_MFR[:,0], dZ_logQ_MFR[:,0], dVtilde_logQ_MFR[:,0], r_MFR[:,0],PiH_MFR[:,0],PiH_MFR[:,1],PiH_MFR[:,2],PiE_MFR[:,0],PiE_MFR[:,1],PiE_MFR[:,2],sigmaQ_MFR[:,0],sigmaQ_MFR[:,1],sigmaQ_MFR[:,2],sigmaR_MFR[:,0],sigmaR_MFR[:,1],sigmaR_MFR[:,2],chi_MFR[:,0],dent_MFR],\
-NameError: name 'dW_logQ_MFR' is not defined
