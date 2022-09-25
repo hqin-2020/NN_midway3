@@ -1,0 +1,14 @@
+2022-09-25 17:42:24.079686: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-09-25 17:42:28.741826: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-09-25 17:42:29.236751: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 38418 MB memory:  -> device: 0, name: NVIDIA A100-PCIE-40GB, pci bus id: 0000:d8:00.0, compute capability: 8.0
+Traceback (most recent call last):
+  File "standard_moments.py", line 311, in <module>
+    dVtilde_logQ_MFR            = np.genfromtxt(mfrSuite_resdir + '/dlogQ_dH_final.dat').reshape(-1,1)
+  File "/software/python-anaconda-2021.05-el8-x86_64/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1791, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/software/python-anaconda-2021.05-el8-x86_64/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 194, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/software/python-anaconda-2021.05-el8-x86_64/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 531, in open
+    raise IOError("%s not found." % path)
+OSError: /project/lhansen/mfrSuite_solution/WZVtilde_sigma_K_0040_sigma_Z_0014_sigma_V_0000_sigma_Vtilde_0100/chiUnderline_0500_a_e_0140_a_h_0135_gamma_e_1000_gamma_h_1000_psi_e_1000_psi_h_1000//dlogQ_dH_final.dat not found.
