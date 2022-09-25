@@ -330,8 +330,8 @@ if status != '3':
         firstCoefsH_MFR             = np.genfromtxt(mfrSuite_resdir + '/firstCoefsH_final.dat').reshape(3,-1).transpose()
         secondCoefsE_MFR            = np.genfromtxt(mfrSuite_resdir + '/secondCoefsE_final.dat').reshape(3,-1).transpose()
         secondCoefsH_MFR            = np.genfromtxt(mfrSuite_resdir + '/secondCoefsH_final.dat').reshape(3,-1).transpose()
-
-        MFR_variables = pd.DataFrame([W_MFR,Z_MFR,V_MFR,Vtilde_MFR,logXiE_MFR,logXiH_MFR,kappa_MFR,q_MFR[:,0],dW_logQ_MFR[:,0], dZ_logQ_MFR[:,0], dVtilde_logQ_MFR[:,0], r_MFR[:,0],PiH_MFR[:,0],PiH_MFR[:,1],PiH_MFR[:,2],PiE_MFR[:,0],PiE_MFR[:,1],PiE_MFR[:,2],sigmaQ_MFR[:,0],sigmaQ_MFR[:,1],sigmaQ_MFR[:,2],sigmaR_MFR[:,0],sigmaR_MFR[:,1],sigmaR_MFR[:,2],chi_MFR[:,0],dent_MFR],\
+                
+        MFR_variables = pd.DataFrame([W_MFR,Z_MFR,V_MFR,Vtilde_MFR,logXiE_MFR,logXiH_MFR,XiE_MFR,XiH_MFR,kappa_MFR,q_MFR[:,0],chi_MFR[:,0], sigmaR_MFR[:,0],sigmaR_MFR[:,1],sigmaR_MFR[:,2],PiH_MFR[:,0],PiH_MFR[:,1],PiH_MFR[:,2],PiE_MFR[:,0],PiE_MFR[:,1],PiE_MFR[:,2],r_MFR[:,0],dent_MFR],\
                             index = moment_list).T
         MFR_variables = MFR_variables.astype(np.float64)
         
