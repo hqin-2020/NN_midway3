@@ -151,6 +151,9 @@ V_NN = V_NN.round(decimals=14)
 NN_variables = pd.DataFrame([W_NN, Z_NN, V_NN, Vtilde_NN, logXiE_NN[:,0], logXiH_NN[:,0], XiE_NN[:,0], XiH_NN[:,0], kappa_NN[:,0], q_NN[:,0], chi_NN[:,0], sigmaR_NN[:,0], sigmaR_NN[:,1], sigmaR_NN[:,2], PiH_NN[:,0], PiH_NN[:,1], PiH_NN[:,2], PiE_NN[:,0], PiE_NN[:,1], PiE_NN[:,2], r_NN[:,0], dent_NN],\
                             index = moment_list).T
 
+NN_variables_norm = pd.DataFrame([HJB_E_NN[:,0], HJB_H_NN[:,0],kappa_min_NN[:,0]],index = ['HJB_E','HJB_H','kappa_min']).T
+NN_variables_norm = pd.concat([NN_variables,NN_variables_norm],axis=1)
+
 W_grid = NN_variables['W'].unique()
 Z_grid = NN_variables['Z'].unique()
 V_grid = NN_variables['V'].unique()
@@ -182,6 +185,8 @@ fix_dict = {'W':W_fix,'Z':Z_fix,'V':V_fix,'Vtilde':Vtilde_fix}
 if sigma_Vtilde_norm == 0:
 
     NN_variables_inner = NN_variables[(NN_variables['W'].isin(W_inner_points)) & (NN_variables['Z'].isin(Z_inner_points))& (NN_variables['V'].isin(V_inner_points))]
+    NN_variables_norm_inner = NN_variables_norm[(NN_variables_norm['W'].isin(W_inner_points)) & (NN_variables_norm['Z'].isin(Z_inner_points))& (NN_variables_norm['V'].isin(V_inner_points))]
+
     fixed_variable = ['V','Z','W']
     fixed_points = [fix_dict[i] for i in fixed_variable]
     NN_slice = [NN_variables.loc[(NN_variables[v] == NN_variables[v].unique()[fixed_points[fixed_variable.index(v)]])].drop(v,axis=1).reset_index(drop=True) for v in fixed_variable]
@@ -215,6 +220,7 @@ elif sigma_V_norm == 0:
     new_columns = NN_variables.columns.tolist()
     NN_variables = NN_variables[new_columns[:2] + [new_columns[3]]+ [new_columns[2]] +new_columns[4:]]
     NN_variables_inner = NN_variables[(NN_variables['W'].isin(W_inner_points)) & (NN_variables['Z'].isin(Z_inner_points))& (NN_variables['Vtilde'].isin(Vtilde_inner_points))]
+    NN_variables_norm_inner = NN_variables_norm[(NN_variables_norm['W'].isin(W_inner_points)) & (NN_variables_norm['Z'].isin(Z_inner_points))& (NN_variables_norm['Vtilde'].isin(Vtilde_inner_points))]
 
     fixed_variable = ['Vtilde','Z','W']
     fixed_points = [fix_dict[i] for i in fixed_variable]
@@ -248,6 +254,8 @@ elif sigma_V_norm == 0:
 else:
 
   NN_variables_inner = NN_variables[(NN_variables['W'].isin(W_inner_points)) & (NN_variables['Z'].isin(Z_inner_points))& (NN_variables['V'].isin(V_inner_points))& (NN_variables['Vtilde'].isin(Vtilde_inner_points))]
+  NN_variables_norm_inner = NN_variables_norm[(NN_variables_norm['W'].isin(W_inner_points)) & (NN_variables_norm['Z'].isin(Z_inner_points))& (NN_variables_norm['V'].isin(V_inner_points))& (NN_variables_norm['Vtilde'].isin(Vtilde_inner_points))]
+
   fixed_variable = [['W','Z'],['W','V'],['W','Vtilde'],['Z','V'],['Z','Vtilde'],['V','Vtilde']]
   fixed_points = [[fix_dict[i] for i in j] for j in fixed_variable]
   NN_slice = [NN_variables.loc[(NN_variables[v[0]] == NN_variables[v[0]].unique()[fixed_points[fixed_variable.index(v)][0]])&(NN_variables[v[1]] == NN_variables[v[1]].unique()[fixed_points[fixed_variable.index(v)][1]])].drop(v,axis=1).reset_index(drop=True) for v in fixed_variable]
@@ -334,9 +342,12 @@ if status != '3':
         MFR_variables = pd.DataFrame([W_MFR,Z_MFR,V_MFR,Vtilde_MFR,logXiE_MFR,logXiH_MFR,XiE_MFR,XiH_MFR,kappa_MFR,q_MFR[:,0],chi_MFR[:,0], sigmaR_MFR[:,0],sigmaR_MFR[:,1],sigmaR_MFR[:,2],PiH_MFR[:,0],PiH_MFR[:,1],PiH_MFR[:,2],PiE_MFR[:,0],PiE_MFR[:,1],PiE_MFR[:,2],r_MFR[:,0],dent_MFR],\
                             index = moment_list).T
         MFR_variables = MFR_variables.astype(np.float64)
+        MFR_variables_norm = pd.DataFrame([np.zeros(W_MFR.shape),np.zeros(W_MFR.shape),np.zeros(W_MFR.shape)],index = ['HJB_E','HJB_H','kappa_min']).T
+        MFR_variables_norm = pd.concat([MFR_variables,MFR_variables_norm],axis=1)
         
         if sigma_Vtilde_norm == 0:
             MFR_variables_inner = MFR_variables[(MFR_variables['W'].isin(W_inner_points)) & (MFR_variables['Z'].isin(Z_inner_points))& (MFR_variables['V'].isin(V_inner_points))]
+            MFR_variables_norm_inner = MFR_variables_norm[(MFR_variables_norm['W'].isin(W_inner_points)) & (MFR_variables_norm['Z'].isin(Z_inner_points))& (MFR_variables_norm['V'].isin(V_inner_points))]
             fixed_variable = ['V','Z','W']
             fixed_points = [fix_dict[i] for i in fixed_variable]
             MFR_slice = [MFR_variables.loc[(MFR_variables[v] == MFR_variables[v].unique()[fixed_points[fixed_variable.index(v)]])].drop(v,axis=1).reset_index(drop=True) for v in fixed_variable]
@@ -367,7 +378,8 @@ if status != '3':
             new_columns = MFR_variables.columns.tolist()
             MFR_variables = MFR_variables[new_columns[:2] + [new_columns[3]]+ [new_columns[2]] +new_columns[4:]]
             MFR_variables_inner = MFR_variables[(MFR_variables['W'].isin(W_inner_points)) & (MFR_variables['Z'].isin(Z_inner_points))& (MFR_variables['Vtilde'].isin(Vtilde_inner_points))]
-            
+            MFR_variables_norm_inner = MFR_variables_norm[(MFR_variables['W'].isin(W_inner_points)) & (MFR_variables_norm['Z'].isin(Z_inner_points))& (MFR_variables_norm['Vtilde'].isin(Vtilde_inner_points))]
+
             fixed_variable = ['Vtilde','Z','W']
             fixed_points = [fix_dict[i] for i in fixed_variable]
             MFR_slice = [MFR_variables.loc[(MFR_variables[v] == MFR_variables[v].unique()[fixed_points[fixed_variable.index(v)]])].drop(v,axis=1).reset_index(drop=True) for v in fixed_variable]
@@ -445,6 +457,20 @@ plot_content = 'Marginal Stationary Densities'+ ' 2d'
 generateMomentPlots_2d(status, plot_results_density_2d, var_name, plot_content, parameter_list, y_adjust = True, height=700, width=width_3d, spacing = spacing, path = docdir)
 
 if status == '0':
+  two_norm = []
+  sup_norm = []
+  two_norm_inner = []
+  sup_norm_inner = []
+  var_num = NN_variables_norm.shape[1]
+  for i in range(var_num):
+    two_norm.append(np.linalg.norm(NN_variables_norm.iloc[:,i]-MFR_variables_norm.iloc[:,i]))
+    sup_norm.append(np.linalg.norm(NN_variables_norm.iloc[:,i]-MFR_variables_norm.iloc[:,i], np.inf))
+    two_norm_inner.append(np.linalg.norm(NN_variables_norm_inner.iloc[:,i]-MFR_variables_norm_inner.iloc[:,i]))
+    sup_norm_inner.append(np.linalg.norm(NN_variables_norm_inner.iloc[:,i]-MFR_variables_norm_inner.iloc[:,i], np.inf))
+
+  norm = pd.DataFrame([two_norm,sup_norm,two_norm_inner,sup_norm_inner],columns = NN_variables_norm.columns,index = ['Two norm','Sup Norm','Interior Two Norm','Interior Sup Norm']).T
+  norm.to_csv(docdir + 'norm.csv')
+
   varibles_list = load_list.copy()
   [varibles_list.pop(varibles_list.index(i)) for i in ['HJB_E_NN','HJB_H_NN','kappa_min_NN']]
   varibles_list = [i[:-3] for i in varibles_list]
