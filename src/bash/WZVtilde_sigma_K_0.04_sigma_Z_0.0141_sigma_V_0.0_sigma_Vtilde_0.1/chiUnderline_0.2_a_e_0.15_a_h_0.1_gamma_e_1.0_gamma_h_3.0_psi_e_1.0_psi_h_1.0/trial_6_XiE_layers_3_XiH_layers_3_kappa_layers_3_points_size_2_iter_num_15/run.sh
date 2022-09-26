@@ -1,16 +1,15 @@
 #!/bin/bash
 
+#SBATCH --account=pi-lhansen
 #SBATCH --job-name=run
 #SBATCH --output=./job-outs/WZVtilde_sigma_K_0.04_sigma_Z_0.0141_sigma_V_0.0_sigma_Vtilde_0.1/chiUnderline_0.2_a_e_0.15_a_h_0.1_gamma_e_1.0_gamma_h_3.0_psi_e_1.0_psi_h_1.0/trial_6_XiE_layers_3_XiH_layers_3_kappa_layers_3_points_size_2_iter_num_15/run.out
 #SBATCH --error=./job-outs/WZVtilde_sigma_K_0.04_sigma_Z_0.0141_sigma_V_0.0_sigma_Vtilde_0.1/chiUnderline_0.2_a_e_0.15_a_h_0.1_gamma_e_1.0_gamma_h_3.0_psi_e_1.0_psi_h_1.0/trial_6_XiE_layers_3_XiH_layers_3_kappa_layers_3_points_size_2_iter_num_15/run.err
 #SBATCH --time=0-24:00:00
-#SBATCH --partition=broadwl
+#SBATCH --partition=caslake
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=14
 #SBATCH --mem=56G
 
-module load tensorflow/2.1
-module unload python
 module load python/anaconda-2021.05
 
 python3 NN_structure.py    --XiE_layers 3 --XiH_layers 3 --kappa_layers 3
