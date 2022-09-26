@@ -33,11 +33,11 @@ else
     mkdir -p ./bash/$domain_folder
 fi
 
-for chiUnderline in 0.5 0.2
+for chiUnderline in 1.0
 do 
-    for a_e in 0.14
+    for a_e in 0.15
     do
-        for a_h in 0.135
+        for a_h in 0.13 0.1 0.05
         do
             for gamma_e in 1.0
             do
@@ -82,15 +82,14 @@ do
 #SBATCH --output=./job-outs/$domain_folder/$model_folder/$layer_folder/moment.out
 #SBATCH --error=./job-outs/$domain_folder/$model_folder/$layer_folder/moment.err
 #SBATCH --time=0-24:00:00
-#SBATCH --partition=gpu
-#SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task=14
-#SBATCH --mem=64G
+#SBATCH --partition=caslake
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
 
 module load python/anaconda-2021.05
-module load cuda/11.2
 
-python3 standard_moments.py   --chiUnderline ${chiUnderline} --a_e ${a_e} --a_h ${a_h} --gamma_e ${gamma_e} --gamma_h ${gamma_h} --psi_e ${psi_e} --psi_h ${psi_h} --nWealth ${nWealth} --nZ ${nZ} --nV ${nV} --nVtilde ${nVtilde} --V_bar ${V_bar} --Vtilde_bar ${Vtilde_bar} --sigma_V_norm ${sigma_V_norm} --sigma_Vtilde_norm ${sigma_Vtilde_norm} --XiE_layers ${XiE_layers} --XiH_layers ${XiH_layers} --kappa_layers ${kappa_layers} --weight1 ${weight1} --boundary1 ${boundary1} --weight2 ${weight2} --boundary2 ${boundary2} --points_size ${points_size} --iter_num ${iter_num} --trial ${trial} --chi_position_tolerance ${chi_position_tolerance} --chi_value_tolerance ${chi_value_tolerance} --chi_max_iterations ${chi_max_iterations} --W_fix ${W_fix} --Z_fix ${Z_fix} --V_fix ${V_fix} --Vtilde_fix ${Vtilde_fix} 
+python3 standard_moments.py   --chiUnderline ${chiUnderline} --a_e ${a_e} --a_h ${a_h} --gamma_e ${gamma_e} --gamma_h ${gamma_h} --psi_e ${psi_e} --psi_h ${psi_h} --nWealth ${nWealth} --nZ ${nZ} --nV ${nV} --nVtilde ${nVtilde} --V_bar ${V_bar} --Vtilde_bar ${Vtilde_bar} --sigma_V_norm ${sigma_V_norm} --sigma_Vtilde_norm ${sigma_Vtilde_norm} --XiE_layers ${XiE_layers} --XiH_layers ${XiH_layers} --kappa_layers ${kappa_layers} --weight1 ${weight1} --boundary1 ${boundary1} --weight2 ${weight2} --boundary2 ${boundary2} --points_size ${points_size} --iter_num ${iter_num} --trial ${trial} --chi_position_tolerance ${chi_position_tolerance} --chi_value_tolerance ${chi_value_tolerance} --chi_max_iterations ${chi_max_iterations} --W_fix ${W_fix} --Z_fix ${Z_fix} --V_fix ${V_fix} --Vtilde_fix ${Vtilde_fix}
 
 EOF
                                                                 sbatch ./bash/$domain_folder/$model_folder/$layer_folder/moment.sh
