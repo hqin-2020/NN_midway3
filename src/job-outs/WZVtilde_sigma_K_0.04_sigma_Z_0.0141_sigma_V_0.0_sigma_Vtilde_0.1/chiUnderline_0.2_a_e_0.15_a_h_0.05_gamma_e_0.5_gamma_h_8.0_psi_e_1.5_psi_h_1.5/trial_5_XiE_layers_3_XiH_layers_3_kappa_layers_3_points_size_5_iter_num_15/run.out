@@ -1,0 +1,61 @@
+Iteration 0
+Elapsed time for kappa 230.1786 sec
+Elapsed time for experts 111.2774 sec
+Elapsed time for households 97.7195 sec
+Iteration 1
+Elapsed time for kappa 192.5714 sec
+Elapsed time for experts 99.4344 sec
+Elapsed time for households 90.5841 sec
+Iteration 2
+Elapsed time for kappa 195.1034 sec
+Elapsed time for experts 100.3462 sec
+Elapsed time for households 89.7052 sec
+Iteration 3
+Elapsed time for kappa 189.5660 sec
+Elapsed time for experts 99.9692 sec
+Elapsed time for households 92.4174 sec
+Iteration 4
+Elapsed time for kappa 190.9241 sec
+Elapsed time for experts 99.9903 sec
+Elapsed time for households 82.8343 sec
+Iteration 5
+Elapsed time for kappa 183.4766 sec
+Elapsed time for experts 101.2204 sec
+Elapsed time for households 23.7039 sec
+Iteration 6
+Elapsed time for kappa 198.6929 sec
+Elapsed time for experts 99.7915 sec
+Elapsed time for households 30.0842 sec
+Iteration 7
+Elapsed time for kappa 63.1464 sec
+Elapsed time for experts 92.0306 sec
+Elapsed time for households 39.3640 sec
+Iteration 8
+Elapsed time for kappa 113.8066 sec
+Elapsed time for experts 102.0871 sec
+Elapsed time for households 11.5966 sec
+Iteration 9
+Elapsed time for kappa 179.9875 sec
+Elapsed time for experts 98.7782 sec
+Elapsed time for households 21.9225 sec
+Iteration 10
+Elapsed time for kappa 148.8066 sec
+Elapsed time for experts 35.3420 sec
+Elapsed time for households 44.2216 sec
+Iteration 11
+Elapsed time for kappa 98.6976 sec
+Elapsed time for experts 97.6724 sec
+Elapsed time for households 43.2500 sec
+Iteration 12
+Elapsed time for kappa 65.9895 sec
+Elapsed time for experts 10.9534 sec
+Elapsed time for households 36.1503 sec
+Iteration 13
+Elapsed time for kappa 66.2219 sec
+Elapsed time for experts 56.7199 sec
+Elapsed time for households 46.3063 sec
+Iteration 14
+Elapsed time for kappa 58.7680 sec
+Elapsed time for experts 98.4756 sec
+Elapsed time for households 33.9980 sec
+Elapsed time for training 4264.7342 sec
