@@ -449,8 +449,8 @@ for i in range(len(plot_contents)):
     generateMomentPlots(status, plot_results_slice_inner, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)    
     # plot_content = plot_contents[i] + ' 2d'
     # generateMomentPlots_2d(status, plot_results_slice_2d, var_name, plot_content, parameter_list, fixed = fixed_values_2d, fix_dict = fix_dict, y_adjust = True, height=height, width=width_2d, spacing = spacing, path = docdir)
-    plot_content = 'Conditional Expectation of ' + plot_contents[i]
-    generateMomentPlots(status, plot_results_first_moments, var_name, plot_content, parameter_list, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)
+    # plot_content = 'Conditional Expectation of ' + plot_contents[i]
+    # generateMomentPlots(status, plot_results_first_moments, var_name, plot_content, parameter_list, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)
     # plot_content = 'Conditional Variance of ' + plot_contents[i]
     # generateMomentPlots(status, plot_results_second_moments, var_name, plot_content, parameter_list, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)
     plot_content = 'Conditional Expectation of ' + plot_contents[i] + ' 2d'
