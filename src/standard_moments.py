@@ -436,37 +436,37 @@ plot_results_density_2d = [MFR_marginal_density_2d, NN_marginal_density_2d]
 var_names = [['logXiE'], ['logXiH'], ['XiE'], ['XiH'], ['kappa'], ['q'], ['chi'], ['sigmaR_first_shock', 'sigmaR_second_shock', 'sigmaR_third_shock'], ['PiH_first_shock', 'PiH_second_shock', 'PiH_third_shock'], ['PiE_first_shock', 'PiE_second_shock', 'PiE_third_shock'], ['r']]
 plot_contents = ['Log Experts Value Function',  'Log Households Value Function', 'Experts Value Function', 'Households Value Function', 'Kappa Policy Function', 'Capital Price', 'Chi Policy Function', 'Local Capital Return Volatility', 'Households Risk Price', 'Experts Risk Price', 'Short Term Interest Rate']
 
-# for i in range(len(plot_contents)):
-#     var_name = var_names[i]
-#     height = 1200 if len(var_name) > 1 else 700
-#     width_3d = 3500 if nDims == 4 else 1500
-#     width_2d = 2300 if nDims == 4 else 1500
-#     spacing = 0.05 if nDims == 4 else 0.1
+for i in range(len(plot_contents)):
+    var_name = var_names[i]
+    height = 1200 if len(var_name) > 1 else 700
+    width_3d = 3500 if nDims == 4 else 1500
+    width_2d = 2300 if nDims == 4 else 1500
+    spacing = 0.05 if nDims == 4 else 0.1
 
-#     plot_content = plot_contents[i]
-#     generateMomentPlots(status, plot_results_slice, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)
-#     plot_content = plot_contents[i] + ' Interior'
-#     generateMomentPlots(status, plot_results_slice_inner, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)    
-#     # plot_content = plot_contents[i] + ' 2d'
-#     # generateMomentPlots_2d(status, plot_results_slice_2d, var_name, plot_content, parameter_list, fixed = fixed_values_2d, fix_dict = fix_dict, y_adjust = True, height=height, width=width_2d, spacing = spacing, path = docdir)
-#     # plot_content = 'Conditional Expectation of ' + plot_contents[i]
-#     # generateMomentPlots(status, plot_results_first_moments, var_name, plot_content, parameter_list, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)
-#     # plot_content = 'Conditional Variance of ' + plot_contents[i]
-#     # generateMomentPlots(status, plot_results_second_moments, var_name, plot_content, parameter_list, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)
-#     plot_content = 'Conditional Expectation of ' + plot_contents[i] + ' 2d'
-#     generateMomentPlots_2d(status, plot_results_first_moments_2d, var_name, plot_content, parameter_list, y_adjust = True, height=height, width=width_2d, spacing = spacing, path = docdir)
-#     # plot_content = 'Conditional Variance of ' + plot_contents[i] + ' 2d'
-#     # generateMomentPlots_2d(status, plot_results_second_moments_2d, var_name, plot_content, parameter_list, y_adjust = True, height=height, width=width_2d, spacing = spacing, path = docdir)
+    plot_content = plot_contents[i]
+    generateMomentPlots(status, plot_results_slice, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)
+    plot_content = plot_contents[i] + ' Interior'
+    generateMomentPlots(status, plot_results_slice_inner, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)    
+    # plot_content = plot_contents[i] + ' 2d'
+    # generateMomentPlots_2d(status, plot_results_slice_2d, var_name, plot_content, parameter_list, fixed = fixed_values_2d, fix_dict = fix_dict, y_adjust = True, height=height, width=width_2d, spacing = spacing, path = docdir)
+    # plot_content = 'Conditional Expectation of ' + plot_contents[i]
+    # generateMomentPlots(status, plot_results_first_moments, var_name, plot_content, parameter_list, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)
+    # plot_content = 'Conditional Variance of ' + plot_contents[i]
+    # generateMomentPlots(status, plot_results_second_moments, var_name, plot_content, parameter_list, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)
+    plot_content = 'Conditional Expectation of ' + plot_contents[i] + ' 2d'
+    generateMomentPlots_2d(status, plot_results_first_moments_2d, var_name, plot_content, parameter_list, y_adjust = True, height=height, width=width_2d, spacing = spacing, path = docdir)
+    # plot_content = 'Conditional Variance of ' + plot_contents[i] + ' 2d'
+    # generateMomentPlots_2d(status, plot_results_second_moments_2d, var_name, plot_content, parameter_list, y_adjust = True, height=height, width=width_2d, spacing = spacing, path = docdir)
 
-# var_name = ['dent']
-# plot_content = 'Stationary Densities'
-# generateMomentPlots(status, plot_results_slice, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = True, height=700, width=width_3d, spacing = spacing, path = docdir)
-# plot_content = 'Stationary Densities' + ' 2d'
-# generateMomentPlots_2d(status, plot_results_slice_2d, var_name, plot_content, parameter_list, fixed = fixed_values_2d, fix_dict = fix_dict, y_adjust = True, height=700, width=width_2d, spacing = spacing, path = docdir)
-# plot_content = 'Marginal Stationary Densities'
-# generateMomentPlots(status, plot_results_density, var_name, plot_content, parameter_list, z_adjust = True, height=700, width=width_3d, spacing = spacing, path = docdir)
-# plot_content = 'Marginal Stationary Densities'+ ' 2d'
-# generateMomentPlots_2d(status, plot_results_density_2d, var_name, plot_content, parameter_list, y_adjust = True, height=700, width=width_3d, spacing = spacing, path = docdir)
+var_name = ['dent']
+plot_content = 'Stationary Densities'
+generateMomentPlots(status, plot_results_slice, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = True, height=700, width=width_3d, spacing = spacing, path = docdir)
+plot_content = 'Stationary Densities' + ' 2d'
+generateMomentPlots_2d(status, plot_results_slice_2d, var_name, plot_content, parameter_list, fixed = fixed_values_2d, fix_dict = fix_dict, y_adjust = True, height=700, width=width_2d, spacing = spacing, path = docdir)
+plot_content = 'Marginal Stationary Densities'
+generateMomentPlots(status, plot_results_density, var_name, plot_content, parameter_list, z_adjust = True, height=700, width=width_3d, spacing = spacing, path = docdir)
+plot_content = 'Marginal Stationary Densities'+ ' 2d'
+generateMomentPlots_2d(status, plot_results_density_2d, var_name, plot_content, parameter_list, y_adjust = True, height=700, width=width_3d, spacing = spacing, path = docdir)
 
 
 two_norm = []
