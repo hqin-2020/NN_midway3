@@ -1,0 +1,12 @@
+2022-09-28 09:42:34.964116: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-09-28 09:42:38.887058: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-09-28 09:42:39.392796: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1532] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22846 MB memory:  -> device: 0, name: Quadro RTX 6000, pci bus id: 0000:d8:00.0, compute capability: 7.5
+Traceback (most recent call last):
+  File "standard_moments.py", line 148, in <module>
+    Fe_NN, firstCoefsE_NN, secondCoefsE_NN, HJB_E_NN, Fh_NN, firstCoefsH_NN, secondCoefsH_NN, HJB_H_NN, kappa_min_NN = [np.load(outputdir +i+'.npy')  for i in load_list]
+  File "standard_moments.py", line 148, in <listcomp>
+    Fe_NN, firstCoefsE_NN, secondCoefsE_NN, HJB_E_NN, Fh_NN, firstCoefsH_NN, secondCoefsH_NN, HJB_H_NN, kappa_min_NN = [np.load(outputdir +i+'.npy')  for i in load_list]
+  File "/software/python-anaconda-2021.05-el8-x86_64/lib/python3.8/site-packages/numpy/lib/npyio.py", line 417, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/project/lhansen/NN_midway3/output/WZVtilde_sigma_K_0040_sigma_Z_0014_sigma_V_0000_sigma_Vtilde_0100/chiUnderline_1000_a_e_0150_a_h_0050_gamma_e_1000_gamma_h_1000_psi_e_1000_psi_h_1000/trial_1_XiE_layers_3_XiH_layers_3_kappa_layers_3_points_size_5_iter_num_15/W_NN.npy'
