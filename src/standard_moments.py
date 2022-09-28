@@ -479,10 +479,10 @@ var_num = NN_variables_norm.shape[1]
 for i in range(var_num):
   two_norm.append(np.linalg.norm(NN_variables_norm.iloc[:,i]-MFR_variables_norm.iloc[:,i]))
   sup_norm.append(np.linalg.norm(NN_variables_norm.iloc[:,i]-MFR_variables_norm.iloc[:,i], np.inf))
-  sup_percentage_norm.append(np.linalg.norm((NN_variables_norm.iloc[:,i]-MFR_variables_norm.iloc[:,i])/MFR_variables_norm.iloc[:,i], np.inf))
+  sup_percentage_norm.append(np.linalg.norm((NN_variables_norm.iloc[:,i]-MFR_variables_norm.iloc[:,i])/MFR_variables_norm.iloc[:,i]*100, np.inf))
   two_norm_inner.append(np.linalg.norm(NN_variables_norm_inner.iloc[:,i]-MFR_variables_norm_inner.iloc[:,i]))
   sup_norm_inner.append(np.linalg.norm(NN_variables_norm_inner.iloc[:,i]-MFR_variables_norm_inner.iloc[:,i], np.inf))
-  sup_percentage_norm_inner.append(np.linalg.norm((NN_variables_norm_inner.iloc[:,i]-MFR_variables_norm_inner.iloc[:,i])/MFR_variables_norm_inner.iloc[:,i], np.inf))
+  sup_percentage_norm_inner.append(np.linalg.norm((NN_variables_norm_inner.iloc[:,i]-MFR_variables_norm_inner.iloc[:,i])/MFR_variables_norm_inner.iloc[:,i]*100, np.inf))
 
 norm = pd.DataFrame([two_norm,sup_norm,sup_percentage_norm,two_norm_inner,sup_norm_inner,sup_percentage_norm_inner],columns = NN_variables_norm.columns,index = ['Two norm','Sup Norm','Sup Percentage Norm','Interior Two Norm','Interior Sup Norm','Interior Sup Percentage Norm',]).T
 norm.to_csv(docdir + 'norm.csv')
