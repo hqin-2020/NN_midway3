@@ -473,26 +473,30 @@ two_norm = []
 sup_norm = []
 two_norm_inner = []
 sup_norm_inner = []
+sup_percentage_norm = []
+sup_percentage_norm_inner = []
 var_num = NN_variables_norm.shape[1]
 for i in range(var_num):
   two_norm.append(np.linalg.norm(NN_variables_norm.iloc[:,i]-MFR_variables_norm.iloc[:,i]))
   sup_norm.append(np.linalg.norm(NN_variables_norm.iloc[:,i]-MFR_variables_norm.iloc[:,i], np.inf))
+  sup_percentage_norm.append(np.linalg.norm((NN_variables_norm.iloc[:,i]-MFR_variables_norm.iloc[:,i])/MFR_variables_norm.iloc[:,i], np.inf))
   two_norm_inner.append(np.linalg.norm(NN_variables_norm_inner.iloc[:,i]-MFR_variables_norm_inner.iloc[:,i]))
   sup_norm_inner.append(np.linalg.norm(NN_variables_norm_inner.iloc[:,i]-MFR_variables_norm_inner.iloc[:,i], np.inf))
+  sup_percentage_norm_inner.append(np.linalg.norm((NN_variables_norm_inner.iloc[:,i]-MFR_variables_norm_inner.iloc[:,i])/MFR_variables_norm_inner.iloc[:,i], np.inf))
 
-norm = pd.DataFrame([two_norm,sup_norm,two_norm_inner,sup_norm_inner],columns = NN_variables_norm.columns,index = ['Two norm','Sup Norm','Interior Two Norm','Interior Sup Norm']).T
+norm = pd.DataFrame([two_norm,sup_norm,sup_percentage_norm,two_norm_inner,sup_norm_inner,sup_percentage_norm_inner],columns = NN_variables_norm.columns,index = ['Two norm','Sup Norm','Sup Percentage Norm','Interior Two Norm','Interior Sup Norm','Interior Sup Percentage Norm',]).T
 norm.to_csv(docdir + 'norm.csv')
 
-varibles_list = load_list.copy()
-[varibles_list.pop(varibles_list.index(i)) for i in ['HJB_E_NN','HJB_H_NN','kappa_min_NN']]
-varibles_list = [i[:-3] for i in varibles_list]
+# varibles_list = load_list.copy()
+# [varibles_list.pop(varibles_list.index(i)) for i in ['HJB_E_NN','HJB_H_NN','kappa_min_NN']]
+# varibles_list = [i[:-3] for i in varibles_list]
 
-if sigma_Vtilde_norm == 0:
-  varibles_list.pop(varibles_list.index('muVtilde'))
-  varibles_list.pop(varibles_list.index('sigmaVtilde'))
-elif sigma_V_norm == 0:
-  varibles_list.pop(varibles_list.index('muV'))
-  varibles_list.pop(varibles_list.index('sigmaV'))
+# if sigma_Vtilde_norm == 0:
+#   varibles_list.pop(varibles_list.index('muVtilde'))
+#   varibles_list.pop(varibles_list.index('sigmaVtilde'))
+# elif sigma_V_norm == 0:
+#   varibles_list.pop(varibles_list.index('muV'))
+#   varibles_list.pop(varibles_list.index('sigmaV'))
 
   # norms = []
   # for variable in varibles_list:
