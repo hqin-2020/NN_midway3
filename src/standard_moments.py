@@ -444,9 +444,9 @@ for i in range(len(plot_contents)):
     spacing = 0.05 if nDims == 4 else 0.1
 
     plot_content = plot_contents[i]
-    generateMomentPlots(status, plot_results_slice, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)
+    generateMomentPlots(status, plot_results_slice, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = False, height=height, width=width_3d, spacing = spacing, path = docdir)
     plot_content = plot_contents[i] + ' Interior'
-    generateMomentPlots(status, plot_results_slice_inner, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)    
+    generateMomentPlots(status, plot_results_slice_inner, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = False, height=height, width=width_3d, spacing = spacing, path = docdir)    
     # plot_content = plot_contents[i] + ' 2d'
     # generateMomentPlots_2d(status, plot_results_slice_2d, var_name, plot_content, parameter_list, fixed = fixed_values_2d, fix_dict = fix_dict, y_adjust = True, height=height, width=width_2d, spacing = spacing, path = docdir)
     # plot_content = 'Conditional Expectation of ' + plot_contents[i]
@@ -454,19 +454,19 @@ for i in range(len(plot_contents)):
     # plot_content = 'Conditional Variance of ' + plot_contents[i]
     # generateMomentPlots(status, plot_results_second_moments, var_name, plot_content, parameter_list, z_adjust = True, height=height, width=width_3d, spacing = spacing, path = docdir)
     plot_content = 'Conditional Expectation of ' + plot_contents[i] + ' 2d'
-    generateMomentPlots_2d(status, plot_results_first_moments_2d, var_name, plot_content, parameter_list, y_adjust = True, height=height, width=width_2d, spacing = spacing, path = docdir)
+    generateMomentPlots_2d(status, plot_results_first_moments_2d, var_name, plot_content, parameter_list, y_adjust = False, height=height, width=width_2d, spacing = spacing, path = docdir)
     # plot_content = 'Conditional Variance of ' + plot_contents[i] + ' 2d'
     # generateMomentPlots_2d(status, plot_results_second_moments_2d, var_name, plot_content, parameter_list, y_adjust = True, height=height, width=width_2d, spacing = spacing, path = docdir)
 
 var_name = ['dent']
 plot_content = 'Stationary Densities'
-generateMomentPlots(status, plot_results_slice, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = True, height=700, width=width_3d, spacing = spacing, path = docdir)
+generateMomentPlots(status, plot_results_slice, var_name, plot_content, parameter_list, fixed = fixed_values, fix_dict = fix_dict, z_adjust = False, height=700, width=width_3d, spacing = spacing, path = docdir)
 plot_content = 'Stationary Densities' + ' 2d'
-generateMomentPlots_2d(status, plot_results_slice_2d, var_name, plot_content, parameter_list, fixed = fixed_values_2d, fix_dict = fix_dict, y_adjust = True, height=700, width=width_2d, spacing = spacing, path = docdir)
+generateMomentPlots_2d(status, plot_results_slice_2d, var_name, plot_content, parameter_list, fixed = fixed_values_2d, fix_dict = fix_dict, y_adjust = False, height=700, width=width_2d, spacing = spacing, path = docdir)
 plot_content = 'Marginal Stationary Densities'
-generateMomentPlots(status, plot_results_density, var_name, plot_content, parameter_list, z_adjust = True, height=700, width=width_3d, spacing = spacing, path = docdir)
+generateMomentPlots(status, plot_results_density, var_name, plot_content, parameter_list, z_adjust = False, height=700, width=width_3d, spacing = spacing, path = docdir)
 plot_content = 'Marginal Stationary Densities'+ ' 2d'
-generateMomentPlots_2d(status, plot_results_density_2d, var_name, plot_content, parameter_list, y_adjust = True, height=700, width=width_3d, spacing = spacing, path = docdir)
+generateMomentPlots_2d(status, plot_results_density_2d, var_name, plot_content, parameter_list, y_adjust = False, height=700, width=width_3d, spacing = spacing, path = docdir)
 
 
 two_norm = []
