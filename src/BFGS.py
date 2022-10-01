@@ -143,17 +143,29 @@ tf.keras.backend.set_floatx("float64") ## Use float64 by default
 logXiE_NN = tf.keras.Sequential(
     [tf.keras.Input(shape=[dimension,]),
       ####### XiE structure #######
-      tf.keras.layers.Dense(1,  activation= None,  kernel_initializer='glorot_normal')])
+      # tf.keras.layers.Dense(1,  activation= None,  kernel_initializer='glorot_normal')])
+      tf.keras.layers.Dense(units, activation=activation, kernel_initializer='Zeros', bias_initializer='Zeros'),
+      tf.keras.layers.Dense(units, activation=activation, kernel_initializer='Zeros', bias_initializer='Zeros'),
+      tf.keras.layers.Dense(units, activation=activation, kernel_initializer='Zeros', bias_initializer='Zeros'),
+      tf.keras.layers.Dense(1,  activation= None,  kernel_initializer='Zeros', bias_initializer='Zeros')])
 
 logXiH_NN = tf.keras.Sequential(
     [tf.keras.Input(shape=[dimension,]),
       ####### XiH structure #######
-      tf.keras.layers.Dense(1,  activation= None , kernel_initializer='glorot_normal')])
+      # tf.keras.layers.Dense(1,  activation= None , kernel_initializer='glorot_normal')])
+      tf.keras.layers.Dense(units, activation=activation, kernel_initializer='Zeros', bias_initializer='Zeros'),
+      tf.keras.layers.Dense(units, activation=activation, kernel_initializer='Zeros', bias_initializer='Zeros'),
+      tf.keras.layers.Dense(units, activation=activation, kernel_initializer='Zeros', bias_initializer='Zeros'),
+      tf.keras.layers.Dense(1,  activation= None,  kernel_initializer='Zeros', bias_initializer='Zeros')])
 
 kappa_NN = tf.keras.Sequential(
     [tf.keras.Input(shape=[dimension,]),
       ####### kappa structure #######
-      tf.keras.layers.Dense(1,  activation='sigmoid', kernel_initializer='glorot_normal')])
+      # tf.keras.layers.Dense(1,  activation='sigmoid', kernel_initializer='glorot_normal')])
+      tf.keras.layers.Dense(units, activation=activation, kernel_initializer='Ones', bias_initializer='Ones'),
+      tf.keras.layers.Dense(units, activation=activation, kernel_initializer='Ones', bias_initializer='Ones'),
+      tf.keras.layers.Dense(units, activation=activation, kernel_initializer='Ones', bias_initializer='Ones'),
+      tf.keras.layers.Dense(1,  activation='sigmoid', kernel_initializer='Ones', bias_initializer='Ones')])
 
 ## Training
 start = time.time()
