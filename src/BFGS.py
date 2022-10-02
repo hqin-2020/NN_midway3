@@ -195,6 +195,7 @@ def logXiH_NN_tf_bias_3(shape, dtype=None):
     return logXiH_NN_tf.trainable_variables[7]
 
 ## NN structure
+tf.random.set_seed(256)
 tf.keras.backend.set_floatx("float64") ## Use float64 by default
 
 logXiE_NN = tf.keras.Sequential(
