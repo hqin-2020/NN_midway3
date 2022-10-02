@@ -39,9 +39,9 @@ do
     do
         for a_h in 0.1 0.05
         do
-            for gamma_e in 0.5
+            for gamma_e in 1.0
             do
-                for gamma_h in 8.0
+                for gamma_h in 3.0
                 do
                     for psi_e in 0.5 1.5
                     do
@@ -53,7 +53,7 @@ do
 
                             for points_size in 10
                             do
-                                for iter_num in 200
+                                for iter_num in 300
                                 do                                                                                                
                                     for XiE_layers in 3
                                     do 
