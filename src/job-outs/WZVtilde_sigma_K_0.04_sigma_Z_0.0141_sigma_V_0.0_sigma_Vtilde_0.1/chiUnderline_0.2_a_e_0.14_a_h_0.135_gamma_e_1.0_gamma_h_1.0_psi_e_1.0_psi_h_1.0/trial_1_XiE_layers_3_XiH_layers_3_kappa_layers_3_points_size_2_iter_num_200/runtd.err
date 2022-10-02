@@ -1,0 +1,120 @@
+ERROR: logger: /software/python-anaconda-2022.05-el8-x86_64/lib/libuuid.so.1: no version information available (required by /lib64/libblkid.so.1)
+      while executing
+  "exec logger -t modulecmd "[get-env USER]: $command [join $args]""
+      (procedure "module" line 2)
+      invoked from within
+  "module autoinit"
+      ("eval" body line 1)
+      invoked from within
+  "eval $execcmdlist"
+  Please report this issue at https://github.com/cea-hpc/modules/issues
+2022-10-02 09:34:27.958096: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-02 09:34:28.161269: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-10-02 09:34:28.192482: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 09:34:28.192511: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-10-02 09:34:28.223774: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-02 09:34:31.171710: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 09:34:31.171820: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 09:34:31.171830: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-02 09:35:05.663193: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 09:35:05.663316: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 09:35:05.663400: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 09:35:05.663495: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 09:35:05.665791: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 09:35:05.665869: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusolver.so.11'; dlerror: libcusolver.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 09:35:05.665946: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 09:35:05.690099: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-10-02 09:35:05.693752: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-02 09:35:44.346730: W tensorflow/core/common_runtime/forward_type_inference.cc:332] Type inference failed. This indicates an invalid graph that escaped type checking. Error message: INVALID_ARGUMENT: expected compatible input types, but input 1:
+type_id: TFT_OPTIONAL
+args {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_TENSOR
+    args {
+      type_id: TFT_BOOL
+    }
+  }
+}
+ is neither a subtype nor a supertype of the combined inputs preceding it:
+type_id: TFT_OPTIONAL
+args {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_TENSOR
+    args {
+      type_id: TFT_DOUBLE
+    }
+  }
+}
+
+	while inferring type of node 'StatefulPartitionedCall_1/StatefulPartitionedCall/cond_1_259/output/_29750'
+Iter: 1 loss: 0.14736796167614014
+Iter: 2 loss: 0.0078289449479701581
+Iter: 3 loss: 0.0057089552567095511
+Iter: 4 loss: 0.0038963639348721254
+Iter: 5 loss: 0.0034682733327208483
+Iter: 6 loss: 0.0033313771186861876
+Iter: 7 loss: 0.0032325527644258643
+Iter: 8 loss: 0.0027400661117078437
+Iter: 9 loss: 0.022271880850145146
+Iter: 10 loss: 0.0020155036718642045
+Iter: 11 loss: 0.0020445425795128855
+Iter: 12 loss: 0.0018108784179023995
+Iter: 13 loss: 0.0048891717135931033
+Iter: 14 loss: 0.0017703485733790388
+Iter: 15 loss: 0.0012453225034568405
+Iter: 16 loss: 0.0012166467914713494
+Iter: 17 loss: 0.0009523130405170051
+Iter: 18 loss: 0.0010033406931458455
+Iter: 19 loss: 0.00084514583939865285
+Iter: 20 loss: 0.00070720862262966839
+Iter: 21 loss: 0.00732930113901345
+Iter: 22 loss: 0.0004069078363316589
+Iter: 23 loss: 0.00035188864594496008
+Iter: 24 loss: 0.00031595972975454888
+Iter: 25 loss: 0.0003101005658160816
+Iter: 26 loss: 0.00030771279818287382
+Iter: 27 loss: 0.0003031637737502188
+Iter: 28 loss: 0.00028542253740571077
+Iter: 29 loss: 0.00025586226895819988
+Iter: 30 loss: 0.00022077641290238169
+Iter: 31 loss: 0.00018482393257161393
+Iter: 32 loss: 0.00017954143508344651
+Iter: 33 loss: 0.00017566062150749234
+Iter: 34 loss: 0.00017259927493492439
+Iter: 35 loss: 0.00019554444521506449
+Iter: 36 loss: 0.00017131054527629941
+Iter: 37 loss: 0.00016913000056393524
+Iter: 38 loss: 0.00016564536879680838
+Iter: 39 loss: 0.00016267003664445539
+Iter: 40 loss: 0.00015544643448064173
+Iter: 41 loss: 0.00014417835930982212
+Iter: 42 loss: 0.00031679780549885204
+Iter: 43 loss: 0.00013702279993722043
+Iter: 44 loss: 0.0001415212965822687
+Iter: 45 loss: 0.00013281540691827508
+Iter: 46 loss: 0.00012685042338156859
+Iter: 47 loss: 0.00013193809051239257
+Iter: 48 loss: 0.00011987539627580868
+Iter: 49 loss: 0.00010557376460193751
+Iter: 50 loss: 0.00010472444067448133
+Iter: 51 loss: 0.00010254819933119854
+Iter: 52 loss: 0.00010188867730715014
+Iter: 53 loss: 0.00010086733278468187
+Iter: 54 loss: 9.67493305659062e-05
+Iter: 55 loss: 8.4283995710451528e-05
+Iter: 56 loss: 8.051759716015672e-05
+Iter: 57 loss: 7.5774130221833909e-05
+Iter: 58 loss: 7.2157174211620316e-05
+Iter: 59 loss: 6.5383097575324e-05
+Iter: 60 loss: 6.214399227804435e-05
+Iter: 61 loss: 6.0170492076909047e-05
+Iter: 62 loss: 5.9587860719771136e-05
+Iter: 63 loss: 5.8880464210223272e-05
+Iter: 64 loss: 5.7738007316119995e-05
+Iter: 65 loss: 5.5862242001229089e-05
+slurmstepd: error: *** JOB 4600743 ON midway3-0286 CANCELLED AT 2022-10-02T09:36:21 ***

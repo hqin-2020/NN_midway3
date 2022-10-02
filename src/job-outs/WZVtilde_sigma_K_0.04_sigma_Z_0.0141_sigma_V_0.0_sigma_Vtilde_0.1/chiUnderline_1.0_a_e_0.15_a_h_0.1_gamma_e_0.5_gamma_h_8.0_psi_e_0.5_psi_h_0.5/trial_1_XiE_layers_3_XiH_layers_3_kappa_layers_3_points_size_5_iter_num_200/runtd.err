@@ -1,0 +1,12 @@
+ERROR: Unable to locate a modulefile for 'python/anaconda-2021.05'
+Traceback (most recent call last):
+  File "standard_BFGS.py", line 2, in <module>
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "standard_variable.py", line 2, in <module>
+    import tensorflow as tf 
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "standard_moments.py", line 2, in <module>
+    import tensorflow as tf 
+ModuleNotFoundError: No module named 'tensorflow'
