@@ -10,7 +10,7 @@ sigma_K_norm=0.04
 sigma_Z_norm=0.0141
 sigma_V_norm=0.0
 sigma_Vtilde_norm=0.1
-trial=1
+trial=6
 weight1=0.0
 boundary1=2
 weight2=0.0
@@ -51,7 +51,7 @@ do
                             mkdir -p ./job-outs/$domain_folder/$model_folder
                             mkdir -p ./bash/$domain_folder/$model_folder
 
-                            for points_size in 10
+                            for points_size in 2
                             do
                                 for iter_num in 300
                                 do                                                                                                
