@@ -128,7 +128,7 @@ batchSize = 2048 * points_size
 dimension = 4
 units = 16
 activation = 'tanh'
-kernel_initializer = 'glorot_normal'
+kernel_initializer = 'self'
 
 BFGS_maxiter  = 30
 BFGS_maxfun   = 50000
