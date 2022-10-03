@@ -130,7 +130,7 @@ units = 16
 activation = 'tanh'
 kernel_initializer = 'self'
 
-BFGS_maxiter  = 30
+BFGS_maxiter  = 20
 BFGS_maxfun   = 50000
 BFGS_gtol     = 1e-6#1.0 * np.finfo(float).eps
 BFGS_maxcor   = 100
