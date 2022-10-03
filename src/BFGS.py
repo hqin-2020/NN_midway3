@@ -137,7 +137,7 @@ BFGS_maxcor   = 100
 BFGS_maxls    = 100
 BFGS_ftol     = 1e-6#1.0 * np.finfo(float).eps
 
-predir = srcdir + '/pre_chiUnderline_0500_a_e_0140_a_h_0135_gamma_e_1000_gamma_h_1000_psi_e_1000_psi_h_1000/'
+predir = srcdir + '/pre_chiUnderline_0500_a_e_0150_a_h_0100_gamma_e_1000_gamma_h_3000_psi_e_1000_psi_h_1000/'
 logXiH_NN_tf = tf.saved_model.load(predir   + 'logXiH_NN')
 logXiE_NN_tf = tf.saved_model.load(predir   + 'logXiE_NN')
 kappa_NN_tf = tf.saved_model.load(predir    + 'kappa_NN')
