@@ -15507,3 +15507,393 @@ Iter: 2 loss: 31.841480129941683
 Iter: 3 loss: 0.00048864007599886089
 3.9863654615935378
 Iter: 4 loss: 0.0004876402659157076
+Iter: 1 loss: 3.0650839974057337e-05
+Iter: 2 loss: 0.31344612551336759
+Iter: 3 loss: 3.0636688749813207e-05
+2.2562121928278458
+Iter: 1 loss: 0.0005920646395170964
+4284.1038838707473
+Iter: 2 loss: 521.61896995328038
+-28.937638245508595
+Iter: 3 loss: 0.0058876120749177339
+0.26730862381351228
+Iter: 4 loss: 0.00056710975388164027
+0.29953727512817152
+Iter: 5 loss: 0.00056424447133913665
+0.42843135592785009
+Iter: 6 loss: 0.00055316812620544034
+0.94367939489343922
+Iter: 7 loss: 0.00051501727313510209
+3.6948948354965543
+Iter: 8 loss: 0.00044801107581282824
+3.12383916400508
+Iter: 9 loss: 0.00043952230384549219
+1.0294581476088305
+Iter: 10 loss: 0.00042001073904559605
+0.88756143805049059
+Iter: 11 loss: 0.00040826992253665417
+1.5893594170231997
+Iter: 12 loss: 0.00038441528510039093
+1.0121235460006217
+Iter: 13 loss: 0.00037964985544479863
+0.574061769870239
+Iter: 14 loss: 0.00037826407095963504
+0.23123732356553428
+Iter: 15 loss: 0.00037695412433366433
+-0.68135272697349425
+Iter: 16 loss: 0.0003721741352760811
+-1.742464000761095
+Iter: 17 loss: 0.00036373430595168103
+-2.2694171165649757
+Iter: 18 loss: 0.00035242591196482393
+-4.3433665349959121
+Iter: 19 loss: 0.00034360749510232774
+-3.4972690222319751
+Iter: 20 loss: 0.00033984142358223311
+-2.4370752725317155
+Iter: 21 loss: 0.00033780735988072225
+-2.0712507460271414
+Iter: 22 loss: 0.00033666665682234896
+-1.7538973847740775
+Iter: 23 loss: 0.00033472236971953713
+-1.9461246127513012
+Iter: 24 loss: 0.000334358474587287
+3.4076674265961477
+Iter: 1 loss: 0.00046662025558384061
+5531.2473808650066
+Iter: 2 loss: 25.663206820330227
+2.2547857226549044
+Iter: 3 loss: 0.00046843665876727931
+3.1897833823185686
+Iter: 4 loss: 0.00046661120055869131
+Iter: 1 loss: 2.8122128979041778e-05
+Iter: 2 loss: 0.26915830713633071
+Iter: 3 loss: 2.8113089151774986e-05
+-0.65777061454160735
+Iter: 1 loss: 0.00054848549631864637
+2910.9919243787272
+Iter: 2 loss: 472.76329827713892
+-22.130114742825327
+Iter: 3 loss: 0.0024639265407076674
+-2.2133684411448455
+Iter: 4 loss: 0.00053663645449757635
+-2.21814676331976
+Iter: 5 loss: 0.00053654808284237356
+-2.2372610596700353
+Iter: 6 loss: 0.000536203686548567
+-2.3137343698993718
+Iter: 7 loss: 0.00053497159358725885
+-2.2295184777248522
+Iter: 8 loss: 0.000528019490116859
+-1.8399514337954672
+Iter: 9 loss: 0.00052534246797697655
+-1.5021075988497115
+Iter: 10 loss: 0.00052396461986586981
+-1.2466046179713168
+Iter: 11 loss: 0.00052300056472320865
+7.3801942279129467
+Iter: 1 loss: 0.00046455630175922869
+3823.6918597013669
+Iter: 2 loss: 41.105115857679067
+4.8506453510809937
+Iter: 3 loss: 0.00045721957128516937
+4.6989890872716717
+Iter: 4 loss: 0.00045330424424278086
+2.9038025710904529
+Iter: 5 loss: 0.00044712505903269772
+1.5217093066657219
+Iter: 6 loss: 0.00044572924670164236
+1.1043291738048229
+Iter: 7 loss: 0.00044540359539727622
+Iter: 1 loss: 2.7466572853870593e-05
+Iter: 2 loss: 0.0085777005667254554
+Iter: 3 loss: 3.8760441629510924e-05
+Iter: 4 loss: 2.7403887460697603e-05
+-2.6707089360846132
+Iter: 1 loss: 0.00039976216503991019
+5636.5242892402166
+Iter: 2 loss: 51.905112606368753
+254.2761111250941
+Iter: 3 loss: 0.30747865345117931
+-0.92618689562482226
+Iter: 4 loss: 0.00038517890320480209
+-0.95190726146718929
+Iter: 5 loss: 0.00038503555936450105
+-1.0547895525453959
+Iter: 6 loss: 0.00038454358158289777
+-1.6730804962906314
+Iter: 1 loss: 0.00041811228027660363
+812.06722220638994
+Iter: 2 loss: 0.19570384561620996
+213.52848757804094
+Iter: 3 loss: 0.093365803033710046
+12.93465375685517
+Iter: 4 loss: 0.0011713788044135122
+0.49280251466518132
+Iter: 5 loss: 0.00040335649033460582
+0.11296342175534152
+Iter: 6 loss: 0.000402611095142074
+Iter: 1 loss: 3.1380568611635337e-05
+Iter: 2 loss: 0.1838272948918756
+Iter: 3 loss: 3.1371230956075623e-05
+-4.3458259019292722
+Iter: 1 loss: 0.00081236094311449452
+6264.2638940713168
+Iter: 2 loss: 74.447917987992653
+684.955870599002
+Iter: 3 loss: 2.55261442261625
+0.01201645901555215
+Iter: 4 loss: 0.000714937244142009
+-0.40479576895429636
+Iter: 5 loss: 0.00071186947972448926
+-1.2402512473058203
+Iter: 6 loss: 0.00070421545061552884
+-2.7361846450487546
+Iter: 7 loss: 0.00068781195389571034
+-4.8764516260282829
+Iter: 8 loss: 0.00066043578617180215
+-6.3757341211839442
+Iter: 9 loss: 0.0006335146487249215
+-6.27470522836731
+Iter: 10 loss: 0.00062327131761982357
+-5.81828655167703
+Iter: 11 loss: 0.00062152160171183855
+-5.5740870922341959
+Iter: 12 loss: 0.000620902903349911
+-3.8843711358479815
+Iter: 1 loss: 0.00046088836946374878
+-214789.20230242115
+Iter: 2 loss: 3281774.8915429544
+13411.406955607303
+Iter: 3 loss: 140.03288646924747
+-3.8532646470754912
+Iter: 4 loss: 0.00046038037519846738
+-3.3182564671211532
+Iter: 5 loss: 0.00045603110464396865
+-1.9288347868478044
+Iter: 6 loss: 0.00045175158859475661
+0.15133585992427478
+Iter: 7 loss: 0.00044891494977691452
+0.26158047824198238
+Iter: 8 loss: 0.00044857354117198414
+0.70180347413878041
+Iter: 9 loss: 0.00044745088375750474
+0.88272745489388593
+Iter: 10 loss: 0.0004442065497607327
+0.22931243689690672
+Iter: 11 loss: 0.00044089336083120675
+-0.37583001305801284
+Iter: 12 loss: 0.00043620281389981328
+-0.38575791661069708
+Iter: 13 loss: 0.00043204522306701412
+0.20926734781716344
+Iter: 14 loss: 0.00043031611720220446
+0.49983202605038024
+Iter: 15 loss: 0.00042884883457488577
+1.1012837020442843
+Iter: 16 loss: 0.00042715193803948345
+-1.5092584382573304
+Iter: 17 loss: 0.00042661552525337761
+Iter: 1 loss: 2.8833166485348897e-05
+Iter: 2 loss: 0.4249030245620401
+Iter: 3 loss: 2.8755488493816441e-05
+-1.842507908578954
+Iter: 1 loss: 0.0003963391573351757
+5756.6323874027285
+Iter: 2 loss: 58.498689740917314
+173.23518782483609
+Iter: 3 loss: 0.14929366186062518
+-0.661527739925287
+Iter: 4 loss: 0.00038937508567031824
+-0.7232404279175112
+Iter: 5 loss: 0.00038822496234113316
+-0.970073506297009
+Iter: 6 loss: 0.00038378402421794587
+-1.9571229882674452
+Iter: 7 loss: 0.00036857114908062539
+-4.5675340864417588
+Iter: 8 loss: 0.00034262779601912385
+-3.8175718297919436
+Iter: 9 loss: 0.0003312242537668531
+0.058056383784875432
+Iter: 10 loss: 0.00030496137845614833
+0.87409526016319328
+Iter: 11 loss: 0.00029374170560516721
+0.793441898368408
+Iter: 12 loss: 0.00028490172653286
+-0.36614661933292791
+Iter: 13 loss: 0.00028091707885654889
+-1.3092496477474285
+Iter: 14 loss: 0.00027236103252623143
+-3.8567940821619526
+Iter: 15 loss: 0.00024329521285942294
+-2.9392044953896606
+Iter: 16 loss: 0.00022640709685975679
+-0.89520576847364564
+Iter: 17 loss: 0.00021484967393600615
+0.78515073224151921
+Iter: 18 loss: 0.00021119129516484049
+2.4894136658220689
+Iter: 19 loss: 0.00020839824058916517
+3.5455398036409336
+Iter: 20 loss: 0.00020566285581156556
+3.6283700116935105
+Iter: 21 loss: 0.00020506732689124903
+1.3796865176727067
+Iter: 1 loss: 0.00038853907582220851
+-2340.4531402503267
+Iter: 2 loss: 15.813809056776957
+-0.2422966659460204
+Iter: 3 loss: 0.00038767239263668742
+0.58962084042046836
+Iter: 4 loss: 0.00038195559313142859
+-0.73780964870764265
+Iter: 5 loss: 0.00037900064624681593
+-0.79179582451162067
+Iter: 6 loss: 0.000378599861779547
+Iter: 1 loss: 3.5554199914432812e-05
+Iter: 2 loss: 0.1291006388881491
+Iter: 3 loss: 3.546736234835048e-05
+3.9796654038464307
+Iter: 1 loss: 0.0012353242673507269
+4891.7708884186723
+Iter: 2 loss: 521.31651839852543
+-94.15296324121249
+Iter: 3 loss: 0.045445796821500371
+-1.0173293019305467
+Iter: 4 loss: 0.0011037753238163635
+-1.08365492918269
+Iter: 5 loss: 0.0011021333640144962
+-1.3490141430731957
+Iter: 6 loss: 0.0010965337503431073
+-1.60324835768406
+Iter: 7 loss: 0.0010650620973994608
+-0.66684613913013258
+Iter: 8 loss: 0.0010149561113838807
+1.5149548337465191
+Iter: 9 loss: 0.00097593780073532686
+3.0227548687333758
+Iter: 10 loss: 0.00096350276398668856
+3.358339954851898
+Iter: 11 loss: 0.00096211629381314162
+3.3588866390475065
+Iter: 12 loss: 0.00096187259047365165
+-1.3288967063752892
+Iter: 1 loss: 0.0005244647300005022
+7769.6255157022633
+Iter: 2 loss: 73.0188198790243
+9860.2737677334335
+Iter: 3 loss: 130.67250398226065
+-1.4093776159697244
+Iter: 4 loss: 0.00052264836662240292
+-2.53685397880687
+Iter: 5 loss: 0.00051146804375409123
+-2.01742897656026
+Iter: 6 loss: 0.00050921594204420342
+1.6375617840664809
+Iter: 7 loss: 0.0005010910085769194
+1.8542387120820409
+Iter: 8 loss: 0.00050024770831968936
+Iter: 1 loss: 3.0988782943827645e-05
+Iter: 2 loss: 0.00887356404611249
+Iter: 3 loss: 5.4691560365044143e-05
+Iter: 4 loss: 3.0867370537192862e-05
+7.4160576804071514
+Iter: 1 loss: 0.00099743861746739255
+4335.086815331033
+Iter: 2 loss: 492.10216857591269
+-87.867925373564134
+Iter: 3 loss: 0.054238646250742269
+0.93757883993569457
+Iter: 4 loss: 0.00070239548586388425
+0.84105977375135188
+Iter: 5 loss: 0.00069927404375721232
+0.66906234539804443
+Iter: 6 loss: 0.00066374674996054657
+1.5821443452726258
+Iter: 7 loss: 0.00062527271708554162
+3.9210650578126387
+Iter: 8 loss: 0.00058383131244243926
+5.220936268620461
+Iter: 9 loss: 0.00057003330791108623
+5.5450723021663171
+Iter: 10 loss: 0.00056774451544158006
+5.5106633339086715
+Iter: 11 loss: 0.00056708404851340145
+0.27199008992837004
+Iter: 1 loss: 0.00037651724157854237
+-1126.9936275785562
+Iter: 2 loss: 1.3851725460004769
+47.933079434419689
+Iter: 3 loss: 0.014136058097808466
+0.99417349072958949
+Iter: 4 loss: 0.00037465697097902365
+0.61463062195261708
+Iter: 5 loss: 0.00037474969590316345
+0.57823220653849283
+Iter: 6 loss: 0.0003746899492200347
+0.43263933041229419
+Iter: 7 loss: 0.00037448716225723527
+Iter: 1 loss: 3.2107146988490704e-05
+Iter: 2 loss: 0.46552598947895796
+Iter: 3 loss: 3.1850556567589666e-05
+1.9193152924343029
+Iter: 1 loss: 0.00086514796300672095
+5699.1903401699838
+Iter: 2 loss: 73.097824955152532
+1156.7894708764761
+Iter: 3 loss: 7.056419894705785
+12.458797474152288
+Iter: 4 loss: 0.00046452883586854384
+10.073564391060053
+Iter: 5 loss: 0.00042712648073452045
+9.8417494135441235
+Iter: 6 loss: 0.00042357292284811541
+8.9144644502255925
+Iter: 7 loss: 0.0004118810199963299
+5.7873820030099568
+Iter: 8 loss: 0.00036133814466972293
+1.7696111245772237
+Iter: 9 loss: 0.00029869727557957772
+0.92740302481266856
+Iter: 10 loss: 0.00026632745654709056
+1.108842500800681
+Iter: 11 loss: 0.00026471478664341766
+1.2047169875411072
+Iter: 12 loss: 0.00026438400452690803
+1.6965341504420008
+Iter: 1 loss: 0.0004063276379990948
+-2013.3701094971593
+Iter: 2 loss: 3.8585183470155062
+19.7378892933595
+Iter: 3 loss: 0.0045933472588186967
+2.5637575151884642
+Iter: 4 loss: 0.00040589019649647426
+2022-10-02 21:07:14.280177: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-02 21:07:14.431383: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-10-02 21:07:14.437535: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:07:14.437560: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-10-02 21:07:14.464615: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-02 21:07:15.169930: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:07:15.170031: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:07:15.170043: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-02 21:07:17.822269: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:07:17.822312: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-10-02 21:07:17.822332: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (midway3-0078.rcc.local): /proc/driver/nvidia/version does not exist
+2022-10-02 21:07:17.822725: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-02 21:08:34.371946: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-02 21:08:34.522023: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-10-02 21:08:34.528125: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:08:34.528148: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-10-02 21:08:34.555801: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-02 21:08:35.256734: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:08:35.256835: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:08:35.256847: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-02 21:08:37.954135: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:08:37.954176: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-10-02 21:08:37.954196: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (midway3-0078.rcc.local): /proc/driver/nvidia/version does not exist
+2022-10-02 21:08:37.954568: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
