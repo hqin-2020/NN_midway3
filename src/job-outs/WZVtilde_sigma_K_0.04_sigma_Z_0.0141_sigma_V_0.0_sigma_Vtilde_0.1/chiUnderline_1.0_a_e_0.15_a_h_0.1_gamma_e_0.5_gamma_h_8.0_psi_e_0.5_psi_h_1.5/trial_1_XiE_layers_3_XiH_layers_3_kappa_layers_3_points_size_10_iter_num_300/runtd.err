@@ -7873,3 +7873,158 @@ Iter: 4 loss: 0.0039160911984404316
 Iter: 1 loss: 2.6667108319226514e-05
 Iter: 2 loss: 0.59135858053390089
 Iter: 3 loss: 2.6653227996271955e-05
+-22.248131862928147
+Iter: 1 loss: 0.00035157997697031831
+30374.845332859695
+Iter: 2 loss: 31.964486955106917
+643.22601257541464
+Iter: 3 loss: 0.051574785036963736
+-16.488340964323033
+Iter: 4 loss: 0.00034759682896820304
+-16.923681231398753
+Iter: 5 loss: 0.00034674309612671178
+-18.664936105418057
+Iter: 6 loss: 0.0003435354084326427
+-28.422798466710915
+Iter: 7 loss: 0.00032612671362300323
+-25.18874614415671
+Iter: 8 loss: 0.00032522006083833652
+-258.7662582971634
+Iter: 1 loss: 0.0040251386743377316
+105054.64664735176
+Iter: 2 loss: 169.98638115032554
+-258.286288885148
+Iter: 3 loss: 0.0040250296853728187
+Iter: 1 loss: 2.7238214764421547e-05
+Iter: 2 loss: 0.042726123231797683
+Iter: 3 loss: 2.7659382574200889e-05
+Iter: 4 loss: 2.7223315730838033e-05
+-25.011325871727415
+Iter: 1 loss: 0.00034566365792904828
+122576.09946026711
+Iter: 2 loss: 100.66801384491649
+16.154757981929585
+Iter: 3 loss: 0.00082600603298615852
+-24.372971778511502
+Iter: 4 loss: 0.00034554454462023203
+-260.47209030502131
+Iter: 1 loss: 0.0039125213799805682
+122709.70877291527
+Iter: 2 loss: 223.737208049335
+-258.63186482078328
+Iter: 3 loss: 0.0039120142847505739
+Iter: 1 loss: 2.6933585792313987e-05
+Iter: 2 loss: 0.50946578725897762
+Iter: 3 loss: 2.6926928257072197e-05
+-23.377391779137938
+Iter: 1 loss: 0.00038012072010212557
+-98166.303486397082
+Iter: 2 loss: 2614.7826720199546
+-31.916946064584657
+Iter: 3 loss: 0.00037311811209889275
+-30.626356805425566
+Iter: 4 loss: 0.00037267371322067849
+-248.35452965518618
+Iter: 1 loss: 0.0037691523431184785
+117384.95102099444
+Iter: 2 loss: 213.61637399809996
+-247.32753497904275
+Iter: 3 loss: 0.0037689408199550961
+Iter: 1 loss: 2.7883187353858838e-05
+Iter: 2 loss: 0.33860486170162241
+Iter: 3 loss: 2.7872076366363239e-05
+-29.913698742387105
+Iter: 1 loss: 0.000419898889529034
+-2156189.3799481285
+Iter: 2 loss: 55051824.346179113
+-29.913698742938184
+Iter: 3 loss: 0.00041989888952736538
+-29.913698750559778
+Iter: 4 loss: 0.00041989888950437438
+-1064951.0325786516
+Iter: 5 loss: 19801173.448640607
+-62233.657250385222
+Iter: 6 loss: 1284.7924726204349
+-29.944549501467971
+Iter: 7 loss: 0.0004198069665866472
+-31.175170003032949
+Iter: 8 loss: 0.00041799609579125081
+-28.032805000800749
+Iter: 9 loss: 0.00041515464290848978
+-20.729581877111194
+Iter: 10 loss: 0.00041181477895835988
+-21.075986959709414
+Iter: 11 loss: 0.00041153032659205414
+-244.67497980929929
+Iter: 1 loss: 0.0039430953954524344
+100371.88908434811
+Iter: 2 loss: 154.55398183339045
+-244.14656380525491
+Iter: 3 loss: 0.0039427501459463853
+Iter: 1 loss: 2.7193720576319965e-05
+Iter: 2 loss: 0.043226148059505032
+Iter: 3 loss: 2.8450647667809988e-05
+Iter: 4 loss: 2.716976305925248e-05
+-16.228899009927353
+Iter: 1 loss: 0.00037397784771685884
+-103656.65693985118
+Iter: 2 loss: 3024.6831596937336
+-20.220525125064405
+Iter: 3 loss: 0.00037224835163749754
+-20.508242080752012
+Iter: 4 loss: 0.00037215427169444621
+-21.659113872037704
+Iter: 5 loss: 0.0003718125011265321
+-252.85560211246604
+Iter: 1 loss: 0.0039062605191873094
+116232.12267319196
+Iter: 2 loss: 174.64195534837819
+-252.23711214583722
+Iter: 3 loss: 0.00390612616225615
+Iter: 1 loss: 2.7368299815585152e-05
+Iter: 2 loss: 0.56420306672078513
+Iter: 3 loss: 2.7314652061101087e-05
+-35.13768695529162
+Iter: 1 loss: 0.00039117305909192192
+33750.619200017063
+Iter: 2 loss: 39.180037747523556
+2142.825981958069
+Iter: 3 loss: 0.5186284220930838
+-17.789612241657139
+Iter: 4 loss: 0.00035774687148463152
+-18.87057407349802
+Iter: 5 loss: 0.00035732695027561491
+-236.63113656794312
+Iter: 1 loss: 0.0037417382391496503
+64576.275801766533
+Iter: 2 loss: 104.61596731366899
+-236.8786502922369
+Iter: 3 loss: 0.0037416289134844559
+2022-10-02 21:53:55.515747: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-02 21:53:55.668884: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-10-02 21:53:55.675171: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:53:55.675197: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-10-02 21:53:55.702191: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-02 21:53:56.421036: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:53:56.421140: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:53:56.421151: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-02 21:53:59.152771: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:53:59.152816: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-10-02 21:53:59.152837: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (midway3-0124.rcc.local): /proc/driver/nvidia/version does not exist
+2022-10-02 21:53:59.153260: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-02 21:55:29.763729: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-02 21:55:29.926384: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-10-02 21:55:29.932639: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:55:29.932665: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-10-02 21:55:29.960378: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-10-02 21:55:30.680523: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:55:30.680633: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:55:30.680646: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2022-10-02 21:55:33.411471: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/python-anaconda-2022.05-el8-x86_64/lib:/software/cudnn-8.3.1-el8-x86_64/lib64
+2022-10-02 21:55:33.411525: W tensorflow/stream_executor/cuda/cuda_driver.cc:263] failed call to cuInit: UNKNOWN ERROR (303)
+2022-10-02 21:55:33.411546: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (midway3-0124.rcc.local): /proc/driver/nvidia/version does not exist
+2022-10-02 21:55:33.411986: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
